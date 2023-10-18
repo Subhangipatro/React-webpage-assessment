@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home-wrapper {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidemenu-wrapper {
+  width: 280px;
+  height: 100%;
+  background-color: #040440;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.sidemenu-head {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.sidemenu-head p {
+  padding-left: 10px;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.sidemenu-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+  color: #6d7194;
+}
+
+.sidemenu-navlink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidemenu-navlink p {
+  /* margin-left: 10px; */
+  font-size: 15px;
+  font-weight: 900;
+  margin: 8px 10px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1px 5px;
+  margin-top: 14px;
+}
+
+.d-flex:hover {
+  background-color: #2d2d69;
+  border-radius: 5px;
+  color: white;
+
+}
+
+.active {
+  background-color: #2d2d69;
+  border-radius: 5px;
+  color: white;
+}
+
+.side-bottom-menu {
+  width: 90%;
+  margin: 0 auto 100px 0;
+  padding: 10px;
+}
+
+.sidemenu-navlink img {
+  width: 50px;
+}
+
+.dashboard-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-wrapper {
+  width: 100%;
+  padding: 10px 50px 0 50px;
+  background-color: #f5f6f8;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.dashboard-wrapper input {
+  border: none;
+  padding-left: 8px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #a4a8af;
+}
+
+.dashboard-content {
+  margin-top: 50px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.first-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px
+}
+
+.first-section .cards {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.first-section .cards span {
+  color: #c4c4c4;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.first-section .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+.second-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.second-section .overview {
+  /* display: flex; */
+  /* flex-grow: 1.8; */
+  flex: 1;
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 470px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.second-section .overview img {
+  width: 100%;
+  height: 300px;
+}
+
+.second-section .customer {
+  /* display: flex; */
+  /* flex-grow: 0.5; */
+  flex: 0.5;
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 470px;
+  background-color: white;
+  border-radius: 10px;
+  /* margin: 20px 10px; */
+}
+
+.second-section .customer img {
+  width: 100%;
+  height: 300px;
+}
+
+.third-section {
+  margin: 20px 0 20px 0;
+  background-color: white;
+  border-radius: 10px;
+}
+
+
+.table {
+  /* width: 100%; */
+  padding: 10px 20px;
+}
+
+hr {
+  border: 1px solid rgb(200 202 207);
+  /* You can customize the line color and thickness */
+}
+
+
+
+.table-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-title {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.table-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-desc select {
+  width: 120px;
+  border: none;
+  background-color: rgb(250 251 255);
+  padding: 8px 8px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.tabledata-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tabledata-title div {
+  font-size: 12px;
+  color: rgb(200 202 207);
+  font-weight: 800;
+}
+
+.tabledata-title .second-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 65px;
+}
+
+.tabledata-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tabledata-body .first-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabledata-body .first-col .content {
+  margin-left: 20px;
+}
+
+.tabledata-body .first-col img {
+  width: 100px;
+  border-radius: 7px;
+}
+
+.tabledata-body .second-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+
+.overview-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.overview-head select {
+  width: 100px;
+  height: 30px;
+  border: none;
+  backgroundColor: "rgb(250 251 255)";
+}
+
+.overview-head p {
+  font-weight: 800;
+  color: #a4a8af;
+  font-size: 12px;
+}
+
+
+.overview-body {
+  margin: 20px;
+}
+
+.customer-head {
+  margin: 20px 0 0 40px;
+}
+
+
+.customer-head p {
+  font-weight: 800;
+  color: #a4a8af;
+  font-size: 12px;
+}
+
+
+@media only screen and (max-width: 970px) {
+  .sidemenu-wrapper {
+    display: none;
+  }
+
+  .second-section {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 673px) {
+  .second-section .overview {
+    flex: initial;
+  }
+
+  .second-section .customer {
+    flex: initial;
+  }
+
+  /* .table-container {
+    width: 100%;
+    overflow-x: auto; 
+  }
+
+  .table {
+    width: 500PX; 
+  } */
+}
+
+@media only screen and (max-width: 485PX) {
+  .dashboard-head div {
+    flex-grow: 1;
+  }
+}
+
+@media only screen and (max-width: 644px) {
+  .table-head {
+    display: block;
+  }
+}

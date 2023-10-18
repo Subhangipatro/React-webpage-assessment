@@ -1,0 +1,25 @@
+/* Table.css */
+.custom-table th {
+    /* padding: 10px; */
+    /* Adjust the padding as needed */
+
+    font-size: 12px;
+    color: rgb(200 202 207);
+    font-weight: 800;
+}
+
+.custom-table td {
+    /* padding: 10px; */
+    /* Adjust the padding as needed */
+}
+
+.custom-table td .first-col {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.custom-table td .first-col img {
+    width: 100px;
+    border-radius: 7px;
+}
